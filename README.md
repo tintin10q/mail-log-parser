@@ -9,7 +9,7 @@ in Postfix logs.
 To generate a csv file with data run:
 
 ```shell
-python parse_email_logs.py mail.log mail.log.1 mail.log.2.gz  mail.log.3.gz mail.log.4.gz --csv-header > emails.csv
+python parse_email_logs.py mail.log.gz --csv-header > emails.csv
 ```
 
 See which emails adresses where send to: 
