@@ -37,8 +37,7 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  --host HOST           SMTP client hostname to match (default:
-                        mx.hok.vologda.su)
+  --host HOST           SMTP client hostname to match 
   --csv-header          Print CSV header.
   --dsn-prefix DSN_PREFIX
                         Only output rows with this dsn prefix (2. is success)
